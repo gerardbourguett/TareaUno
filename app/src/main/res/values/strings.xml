@@ -8,4 +8,9 @@
     <string name="activity_1">Activity 1</string>
     <string name="escribe_aqu">Escribe aquí...</string>
     <string name="send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_uno">Fragment 1</string>
+    <string name="hello_blank_fragment_dos">Fragment 2</string>
+    <string name="hello_blank_fragment_tres">Fragment 3</string>
 </resources>

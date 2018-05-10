@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        TextView fondo = findViewById(R.id.pantalla);
         Button act_uno = findViewById(R.id.act1);
         Button act_dos = findViewById(R.id.act2);
         Button act_tres = findViewById(R.id.act3);
