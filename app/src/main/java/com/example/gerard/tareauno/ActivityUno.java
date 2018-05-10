@@ -1,5 +1,6 @@
 package com.example.gerard.tareauno;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ActivityUno extends AppCompatActivity implements FragUno.OnFragmentInteractionListener, FragDos.OnFragmentInteractionListener{
 
@@ -24,6 +26,9 @@ public class ActivityUno extends AppCompatActivity implements FragUno.OnFragment
             public void onClick(View v) {
                 String textToSend = text1.getText().toString();
                 salida.setText("Activity 1: "+textToSend);
+                Intent intent = new Intent(ActivityUno.this, MainActivity.class);
+                Toast.makeText(ActivityUno.this, "Activity Uno", Toast.LENGTH_SHORT).show();
+                startActivity(intent);
             }
         });
 
